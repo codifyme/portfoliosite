@@ -15,7 +15,7 @@ class Projects extends Component {
         <div className="projects-grid">
           {/* Project 1 */}
           <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
-            <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://xtnotes-1255646395.coshk.myqcloud.com/images/react-1.svg) center / cover'}} >React Project #1</CardTitle>
+            <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://acthefullstackdev.netlify.app/images/portfolio/petfinder.png) center / cover'}} >Pet Finder</CardTitle>
             <CardText>
             Pet Finder is a App that implements Pet matching based on the user's responses to a ten question survey. The user responds to questions with values from 1 (Strongly Disagree) to 5 (Strongly Agree). When the survey is submitted, an existing user record closest to the current user's responses is found and returned.
             </CardText>
@@ -31,7 +31,7 @@ class Projects extends Component {
 
           {/* Project 2 */}
           <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
-            <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://xtnotes-1255646395.coshk.myqcloud.com/images/react-1.svg) center / cover'}} >React Project #2</CardTitle>
+            <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://acthefullstackdev.netlify.app/images/portfolio/burger.png) center / cover'}} >Eat The Burger</CardTitle>
             <CardText>
             This Menu Application lets users place their order directly from a Mobile device. Whenever a user submits a burger’s name and side order, the app will display the order on the top side of the page waiting to be devoured. Happily devoured it, the user may remove by clicking on it, which moves it into the adjacent column and updates its status accordingly in the database.
             </CardText>
@@ -47,7 +47,7 @@ class Projects extends Component {
 
           {/* Project 3 */}
           <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
-            <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://xtnotes-1255646395.coshk.myqcloud.com/images/react-1.svg) center / cover'}} >React Project #3</CardTitle>
+            <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://acthefullstackdev.netlify.app/images/portfolio/unproductive.png) center / cover'}} >UN/PRODUCTIVE</CardTitle>
             <CardText>
             UN|PRODUCTIVE is a React App that can be used to look up for books (Productive), or (||) (Un-Productive) video games based on the title of user inputs in a search bar.
             </CardText>
