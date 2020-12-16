@@ -14,7 +14,9 @@ class Contact extends Component {
               alt="avatar"
               style={{height: '250px'}}
                />
-             <p style={{ width: '75%', margin: 'auto', paddingTop: '1em'}}> I began my career in 2008 as a graphic designer, but quickly transitioned into web development and responsive web design. I am well versed in numerous coding languages and frameworks. From constructing web applications and creating websites, to building databases and parsing data from servers, I have great adaptability in the field.</p>
+             <p style={{ width: '75%', margin: 'auto', paddingTop: '1em'}}> I'm a passionate Full Stack Developer creating modern and responsive design for Web and Mobile.
+Let's learn more about me.
+</p>
 
           </Cell>
           <Cell col={6}>
@@ -46,7 +48,7 @@ class Contact extends Component {
 
                 <ListItem>
                   <ListItemContent style={{fontSize: '30px', fontFamily: 'Anton'}}>
-                    <i className="fa fa-skype" aria-hidden="true"/>
+                    <i className="fa fa-github" aria-hidden="true"/>
                     Please contact me! Let's work together!
                   </ListItemContent>
                 </ListItem>
