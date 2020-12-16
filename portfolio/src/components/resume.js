@@ -18,16 +18,17 @@ class Resume extends Component{
                         <h2 style={{paddingTop:'2em'}}>Angel Cochachez</h2>
                         <h4 style={{color:'grey'}}>Full Stack Developer</h4>
                         <hr style={{borderTop:'3px solid #833fb2',width:'50%' }}/>
-                        <p>Currently working on a variety of projects regarding clients Full Stack Web Development and App Designs. Primary focused on designing E-Commerce website and App for online shopping using MERN Stack.</p>
+                        <p>I'm a passionate Full Stack Developer creating modern and responsive design for Web and Mobile.
+Let's learn more about me.</p>
                         <hr style={{borderTop:'3px solid #833fb2',width:'50%' }}/>
                         <h5>Address</h5>
-                        <p>Addison st, Berkeley</p>
+                        <p>San Francisco</p>
                         <h5>Phone</h5>
-                        <p>(510)-834-5198</p>
+                        <p>(510)-829-4019</p>
                         <h5>Email</h5>
-                        <p>someone@gmail.com</p>
+                        <p>acochachez@gmail.com</p>
                         <h5>Web</h5>
-                        <p>mywebsite.com</p>
+                        <p>https://acthefullstackdev.netlify.app/</p>
                         <hr style={{borderTop:'3px solid #833fb2', width:'50%'}}/>
 
                     </Cell>
@@ -43,26 +44,56 @@ class Resume extends Component{
                         endYear={2016}
                         schoolName="Codify Academy"
                         schoolDescription="Front End Development" />
+
+                        <Education startYear={2019}
+                        endYear={2020}
+                        schoolName="UC Berkeley Extension"
+                        schoolDescription="Full Stack Coding Boot Camp"/>
+
+
                         <hr style={{borderTop:'3px solid #e22947'}}/>
                         <h2>Experience</h2>
+                        <Experience
+                    startYear={2020}
+                    endYear={2020}
+                    jobName="Ziggurat Technologies, Inc"
+                    jobTitle="Full Stack Developer"
+                    jobDescription="Currently working on a variety of projects regarding the company Full Stack Web Development for web and App Designs."/>
+                    
+
+                    <Experience
+                    startYear={2019}
+                    endYear={2020}
+                    jobName="Code with Corgis"
+                    jobTitle="Full Stack Web Developer"
+                    jobDescription="Used to work on a variety of projects regarding clients Full Stack Web and App Designs.
+                    Responsible for taking a design and turning it into a beautiful user experience using React, React Native, Redux, GraphQL, NodeJS, React Spring, Git/Github, Backend APIs, along with other libraries and frameworks."/>
                     <Experience
                     startYear={2013}
                     endYear={2017}
                     jobName="Tinita's Events - Florist"
                     jobTitle="Front-End Developer"
-                    JobDescription="Worked on the company’s new landing page design, framework and graphic design for latest Bay Area Wedding Fairs events and bridal shows such as; photo galleries, flower decorations, contact info and more."/>
+                    jobDescription="Worked on the company’s new landing page design, framework and graphic design for latest Bay Area Wedding Fairs events and bridal shows such as; photo galleries, flower decorations, contact info and more."/>
                     <Experience
                     startYear={2013}
                     endYear={2016}
                     jobName="Rock Sur"
                     jobTitle="Front-End Developer"
-                    JobDescription="Coordinated with six of the most popular Latin American Rock Bands in the Bay Area and helped them to introduce their music to the Latino Community using the company website and social media channels."/>
+                    jobDescription="Coordinated with six of the most popular Latin American Rock Bands in the Bay Area and helped them to introduce their music to the Latino Community using the company website and social media channels."/>
+                    <Experience
+                    startYear={2008}
+                    endYear={2011}
+                    jobName="California State University - East Bay"
+                    jobTitle="Student Research Assistant - Library"
+                    jobDescription="Sorted and organized library materials, making access to documents seamless to library patrons and extensive experience with customer service.
+                    Paged and processed promptly and accurately to other libraries; managed document and textbook requests from link+ database system."/>
+                    
                     <Experience
                     startYear={2009}
                     endYear={2010}
-                    jobName="Apollo"
+                    jobName="Octagon Consulting, Apollo - Intern"
                     jobTitle="Front-End Developer"
-                    JobDescription="Contributed to building the company’s new website and was responsible for working on front-end work, mobile responsiveness, layout integration with theme framework, adjusting CSS classes and styling components."/>
+                    jobDescription="Contributed to building the company’s new website and was responsible for working on front-end work, mobile responsiveness, layout integration with theme framework, adjusting CSS classes and styling components."/>
 
 
 
