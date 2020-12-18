@@ -2,6 +2,7 @@ import React, {Component} from 'react';
 import {Grid, Cell} from 'react-mdl';
 import Education from './education';
 import Experience from './experience';
+import Skills from './skills';
 
 
 class Resume extends Component{
@@ -17,10 +18,9 @@ class Resume extends Component{
                         </div>
                         <h2 style={{paddingTop:'2em'}}>Angel Cochachez</h2>
                         <h4 style={{color:'grey'}}>Full Stack Developer</h4>
-                        <hr style={{borderTop:'3px solid #833fb2',width:'50%' }}/>
-                        <p>I'm a passionate Full Stack Developer creating modern and responsive design for Web and Mobile.
-Let's learn more about me.</p>
-                        <hr style={{borderTop:'3px solid #833fb2',width:'50%' }}/>
+                        <hr style={{borderTop:'3px solid #833fb2',width:'100%' }}/>
+                        <p>During the last three years, I have been greatly improving my skills as a Full Stack Developer; many of my finished side projects have taught me tremendously. Now I feel very confident to integrate and utilize potential source tools and resources, such as; MERN Stack and other several languages, that allow me to work in the most efficient and customizing manner.</p>
+                        <hr style={{borderTop:'3px solid #833fb2',width:'100%' }}/>
                         <h5>Address</h5>
                         <p>San Francisco</p>
                         <h5>Phone</h5>
@@ -29,7 +29,7 @@ Let's learn more about me.</p>
                         <p>acochachez@gmail.com</p>
                         <h5>Web</h5>
                         <p>https://acthefullstackdev.netlify.app/</p>
-                        <hr style={{borderTop:'3px solid #833fb2', width:'50%'}}/>
+                        <hr style={{borderTop:'3px solid #833fb2', width:'100%'}}/>
 
                     </Cell>
                     <Cell className="resume-right-col" col={8}>
@@ -57,7 +57,7 @@ Let's learn more about me.</p>
                     startYear={2020}
                     endYear={2020}
                     jobName="Ziggurat Technologies, Inc"
-                    jobTitle="Full Stack Developer"
+                    jobTitle="Full Stack Web Developer"
                     jobDescription="Currently working on a variety of projects regarding the company Full Stack Web Development for web and App Designs."/>
                     
 
@@ -91,11 +91,51 @@ Let's learn more about me.</p>
                     <Experience
                     startYear={2009}
                     endYear={2010}
-                    jobName="Octagon Consulting, Apollo - Intern"
-                    jobTitle="Front-End Developer"
+                    jobName="Octagon Consulting, Apollo"
+                    jobTitle="Front-End Developer - Intern"
                     jobDescription="Contributed to building the company’s new website and was responsible for working on front-end work, mobile responsiveness, layout integration with theme framework, adjusting CSS classes and styling components."/>
-
-
+                    <hr style={{borderTop:'3px solid #e22947'}}/>
+                    <h2>Skills</h2>
+                    <Skills 
+                        skill="javascript"
+                        progress={100}
+                    />
+                    <Skills 
+                        skill="React"
+                        progress={100}
+                    />
+                    <Skills 
+                        skill="NodeJS"
+                        progress={100}
+                    />
+                    <Skills 
+                        skill="React Native"
+                        progress={100}
+                    />
+                    <Skills 
+                        skill="Mongo DB"
+                        progress={100}
+                    />
+                    <Skills 
+                        skill="CSS"
+                        progress={100}
+                    />
+                    <Skills 
+                        skill="Javascript"
+                        progress={100}
+                    />
+                    <Skills 
+                        skill="HTML5"
+                        progress={100}
+                    />
+                    <Skills 
+                        skill="MySQL"
+                        progress={100}
+                    />
+                    <Skills 
+                        skill="Firebase"
+                        progress={100}
+                    />
 
                     </Cell>
                 </Grid>

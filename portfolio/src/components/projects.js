@@ -49,7 +49,7 @@ class Projects extends Component {
           <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
             <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://acthefullstackdev.netlify.app/images/portfolio/unproductive.png) center / cover'}} >UN/PRODUCTIVE</CardTitle>
             <CardText>
-            UN|PRODUCTIVE is a React App that can be used to look up for books (Productive), or (||) (Un-Productive) video games based on the title of user inputs in a search bar.
+            UN|PRODUCTIVE is a React App that can be used to look up for books (Productive), or (||) (Un-Productive) video games based on the title of user inputs in a search bar. All Results are displayed in the same page. User can click "Learn more" for a description of book or game. Both Productive/Unproductive users can add games to the communal game recommendation
             </CardText>
             <CardActions border>
               <Button colored>GitHub</Button>

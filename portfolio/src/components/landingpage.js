@@ -23,7 +23,7 @@ class Landing extends Component{
                                 <i className="fa fa-linkedin-square" aria-hidden="true"/>
                             </a>
                             {/* Github */}
-                            <a href="http://github/codifyme" rel="noopener noreferrer" target="_blank">
+                            <a href="https://github.com/codifyme" rel="noopener noreferrer" target="_blank">
                                 <i className="fa fa-github-square" aria-hidden="true"/>
                             </a>
                             {/* Codepen */}
