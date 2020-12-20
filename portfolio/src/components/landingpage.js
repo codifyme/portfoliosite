@@ -28,7 +28,7 @@ class Landing extends Component{
                             </a>
                             {/* Codepen */}
                             <a href="https://codepen.io/codifyme" rel="noopener noreferrer" target="_blank">
-                                <i className="fa fa-youtube-square" aria-hidden="true"/>
+                                <i className="fa fa-codepen" aria-hidden="true"/>
                             </a>
                             {/* freecodecamp */}
                             <a href="https://www.freecodecamp.org/fccce172b1d-e670-48c8-9902-b53da8175c3e" rel="noopener noreferrer" target="_blank">

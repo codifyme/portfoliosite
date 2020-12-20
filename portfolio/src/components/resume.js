@@ -43,7 +43,7 @@ class Resume extends Component{
                         <Education startYear={2016}
                         endYear={2016}
                         schoolName="Codify Academy"
-                        schoolDescription="Front End Development" />
+                        schoolDescription="Front End Development Diploma" />
 
                         <Education startYear={2019}
                         endYear={2020}
@@ -57,7 +57,7 @@ class Resume extends Component{
                     startYear={2020}
                     endYear={2020}
                     jobName="Ziggurat Technologies, Inc"
-                    jobTitle="Full Stack Web Developer"
+                    jobTitle="Full Stack Web Developer - Intern"
                     jobDescription="Currently working on a variety of projects regarding the company Full Stack Web Development for web and App Designs."/>
                     
 
