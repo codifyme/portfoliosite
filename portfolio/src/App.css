@@ -115,4 +115,65 @@
   padding: 8px;
 }
 
-/******** ABOUT ME MOTION ************/
+/* ABOUT ME */
+
+.about {
+  background-color: transparent;
+  font-size: 1.1em;
+}
+
+.profile {
+  max-width: 18em;
+}
+
+.my-details {
+  background-color: rgba(255, 255, 255, 0.747);
+}
+/* Dark Mode btn */
+
+.btnMode{
+  position:absolute;
+  right:10px;
+  top:10px;
+  display:flex;
+  width:4rem;
+  position:fixed;
+  top:90px;
+}
+.btnIcons{
+
+background:rgba(255, 255, 255, 0.747);
+border: 1px solid transparent;
+width:5rem;
+height:6px;
+padding: 0.5rem;
+display:flex;
+justify-content: space-between;
+margin:0 auto;
+position: relative;
+border-radius: 3rem;
+align-items: center;
+cursor:pointer;
+transition:all 0.3s ease-in-out;
+}
+
+.newBtnIcons{
+  background:#363636;
+
+}
+.fa-moon{
+  color:#e6e4e4;
+}
+.ball{
+  position:absolute;
+  left:0;
+  width:2rem;
+  height:20px;
+  background:rgb(192,184,149);
+  border-radius:3rem;
+  transition: all 0.3s ease-in-out;
+  margin:0 auto;
+}
+
+
+

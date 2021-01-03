@@ -2,7 +2,7 @@ import React, {Component} from 'react';
 import {Grid, Cell} from 'react-mdl';
 import Education from './education';
 import Experience from './experience';
-import Skills from './skills';
+// import Skills from './skills';
 
 
 class Resume extends Component{
@@ -10,7 +10,7 @@ class Resume extends Component{
         return(
             <div>
                 <Grid>
-                    <Cell col={4}>
+                    {/* <Cell col={4}>
                         <div style={{textAlign:'center'}}>
                             <img src="https://cdn0.iconfinder.com/data/icons/avatars-6/500/Avatar_boy_man_people_account_client_male_person_user_work_sport_beard_team_glasses-512.png"
                             alt="avatar"
@@ -31,8 +31,8 @@ class Resume extends Component{
                         <p>https://acthefullstackdev.netlify.app/</p>
                         <hr style={{borderTop:'3px solid #833fb2', width:'100%'}}/>
 
-                    </Cell>
-                    <Cell className="resume-right-col" col={8}>
+                    </Cell> */}
+                    <Cell className="resume-right-col" col={12}>
                         <h2>Education</h2>
 
                         <Education startYear={2008}
@@ -95,7 +95,7 @@ class Resume extends Component{
                     jobTitle="Front-End Developer - Intern"
                     jobDescription="Contributed to building the company’s new website and was responsible for working on front-end work, mobile responsiveness, layout integration with theme framework, adjusting CSS classes and styling components."/>
                     <hr style={{borderTop:'3px solid #e22947'}}/>
-                    <h2>Skills</h2>
+                    {/* <h2>Skills</h2>
                     <Skills 
                         skill="javascript"
                         progress={100}
@@ -112,6 +112,7 @@ class Resume extends Component{
                         skill="React Native"
                         progress={100}
                     />
+                    
                     <Skills 
                         skill="Mongo DB"
                         progress={100}
@@ -135,7 +136,7 @@ class Resume extends Component{
                     <Skills 
                         skill="Firebase"
                         progress={100}
-                    />
+                    /> */}
 
                     </Cell>
                 </Grid>
