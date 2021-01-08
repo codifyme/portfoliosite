@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import {Grid, Cell} from 'react-mdl';
+import {Grid, Cell, Button} from 'react-mdl';
 import Education from './education';
 import Experience from './experience';
 // import Skills from './skills';
@@ -10,16 +10,16 @@ class Resume extends Component{
         return(
             <div>
                 <Grid>
-                    {/* <Cell col={4}>
+                    <Cell col={4}>
                         <div style={{textAlign:'center'}}>
                             <img src="https://cdn0.iconfinder.com/data/icons/avatars-6/500/Avatar_boy_man_people_account_client_male_person_user_work_sport_beard_team_glasses-512.png"
                             alt="avatar"
                             style={{height:'200px'}}/>
                         </div>
-                        <h2 style={{paddingTop:'2em'}}>Angel Cochachez</h2>
-                        <h4 style={{color:'grey'}}>Full Stack Developer</h4>
+                        <h2 style={{paddingTop:'2em', textAlign:'center'}}>Angel Cochachez</h2>
+                        <h4 style={{color:'grey', textAlign:'center'}}>Full Stack Developer</h4>
                         <hr style={{borderTop:'3px solid #833fb2',width:'100%' }}/>
-                        <p>During the last three years, I have been greatly improving my skills as a Full Stack Developer; many of my finished side projects have taught me tremendously. Now I feel very confident to integrate and utilize potential source tools and resources, such as; MERN Stack and other several languages, that allow me to work in the most efficient and customizing manner.</p>
+                        <p>Full-Stack Web Developer with experience as a Project Manager and Content Creator; analyzing requirements, design, development and implementation of the projects. I have strong skills in HTML, CSS, JavaScript libraries, Node.js, Jquery, MySQL, Express, React.js, MongoDB and several other languages that make me feel confident writing code as a Full Stack Developer.</p>
                         <hr style={{borderTop:'3px solid #833fb2',width:'100%' }}/>
                         <h5>Address</h5>
                         <p>San Francisco</p>
@@ -31,8 +31,23 @@ class Resume extends Component{
                         <p>https://acthefullstackdev.netlify.app/</p>
                         <hr style={{borderTop:'3px solid #833fb2', width:'100%'}}/>
 
-                    </Cell> */}
-                    <Cell className="resume-right-col" col={12}>
+                        
+                        {/* <div><Tooltip label={<span>Download <strong>file.zip</strong></span>}>
+                            <Icon name="cloud_download" />
+                        </Tooltip>
+                        </div> */}
+
+                        {/* <Button href="/contact" raised accent ripple>HIRE ME</Button> */}
+                        <div><p style={{paddingTop:'2em',textAlign:'center'}}>
+                        <Button  href="https://docs.google.com/document/d/1uqTUzGOnatqbXTjmR5HBni5eIyc6ETz6cwfrLOW43C0/edit?usp=sharing" raised accent ripple>DOWNLOAD RESUME</Button>
+
+                        
+                        </p>
+                        </div>
+                        
+
+                    </Cell>
+                    <Cell className="resume-right-col" col={8}>
                         <h2>Education</h2>
 
                         <Education startYear={2008}
